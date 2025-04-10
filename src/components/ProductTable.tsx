@@ -40,9 +40,6 @@ const ProductTable: React.FC = () => {
           <tr>
             <th>Nombre</th>
             <th>Tienda</th>
-            <th>Precio Normal</th>
-            <th>Precio Oferta</th>
-            <th>Precio Más Bajo</th>
           </tr>
         </thead>
         <tbody>
@@ -50,9 +47,6 @@ const ProductTable: React.FC = () => {
             <tr key={product.productId}>
               <td>{product.name}</td>
               <td>{product.storeName}</td>
-              <td>${product.prices.normalPrice?.toFixed(2)}</td>
-              <td>${product.prices.offerPrice?.toFixed(2)}</td>
-              <td>${product.prices.lowest?.toFixed(2)}</td>
             </tr>
           ))}
         </tbody>
