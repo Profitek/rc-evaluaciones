@@ -37,7 +37,7 @@ Aplicación de evaluación de productos para RetailCompass.
 1. Incluir dentro del listado de productos los precios (lowest, offer, normal).
 2. Actualmente la integracion al API esta en metodo GET, cambiarlo para que soporte POST.
 3. En el sidebar agregar filtro de `SKU` y `Status`, esto deberá alterar el listado de productos.
-4. Cuando se tenga la solucione, deberá subir un PR donde el formato de la rama debe ser `nombre_completo_del_postulante/feature/alteredListing`
+4. Cuando se tenga la solucione, subir la solucion a otro repositorio para su evaluacion.
 
 ### Documentacion del API
 1. APIKey para la evaluacion: `ff236fbd608a479b8d2025a3791bb848`
