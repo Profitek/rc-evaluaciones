@@ -34,10 +34,12 @@ Aplicación de evaluación de productos para RetailCompass.
 ![Tabla de Productos](./public/screenshots/detalleRC.png)
 
 ### Reto para la postulacion
-1. Incluir dentro del listado de productos los precios (lowest, offer, normal).
-2. Actualmente la integracion al API esta en metodo GET, cambiarlo para que soporte POST.
-3. En el sidebar agregar filtro de `SKU` y `Status`, esto deberá alterar el listado de productos.
-4. Cuando se tenga la solucione, subir la solucion a otro repositorio para su evaluacion.
+1. Para empezar a trabajar en el proyecto, primero crea un fork del repositorio en tu cuenta de GitHub." 
+2. Incluir dentro del listado de productos los precios `(lowest, offer, normal)` y `descuento`. 
+   El campo descuento se calcula en base a la siguiente formula `((normal - lowest)/normal) * 100`
+3. Actualmente la integracion al API esta en metodo GET, cambiarlo para que soporte POST.
+4. En el sidebar agregar filtro de `SKU` y `Status`, esto deberá alterar el listado de productos.
+5. Evianos el PR para evaluarte.
 
 ### Documentacion del API
 1. APIKey para la evaluacion: `ff236fbd608a479b8d2025a3791bb848`
